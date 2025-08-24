@@ -19,5 +19,5 @@ What it can do right now:
 2. **Use it**
    To use the app, Go to the location of where you cloned it in any way for example through terminal and then run the main.py file.
 
-Create a .env file with your Hugging Face token:
+Create a .env file in main/ with your Hugging Face token:
 HF_TOKEN=your_token_here
