@@ -17,7 +17,16 @@ What it can do right now:
    git clone https://github.com/dev-vaibhav-0/NLP-based-app.git
    cd NLP-based-app
 2. **Use it**
-   To use the app, Go to the location of where you cloned it in any way for example through terminal and then run the main.py file.
+   ```bash
+   cd main/
+   touch .env
+   nano .env
+   #Paste your token in this format: HF_TOKEN=
+   Ctrl + o
+   Enter
+   Ctrl + x
+   # Run the python file
+   python3 main.py
 
 Create a .env file in main/ with your Hugging Face token:
 HF_TOKEN=your_token_here
